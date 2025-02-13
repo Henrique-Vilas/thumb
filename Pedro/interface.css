@@ -110,10 +110,10 @@ button:hover {
     height: 450px;
 }
 #Cancelar:hover{
-    background-color: #000000;
+    background-color: #ff0000;
     opacity: 0.9;
     clip-path: polygon(89% 1%, 100% 50%, 88% 100%, 0% 100%, 5% 51%, 0% 0%);
-    color: #ff0404;
+    color: #ffffff;
 }
 
 #arq:hover{
@@ -133,4 +133,9 @@ button{
     padding: 15px 50px;
     transition: .4s;
     clip-path: polygon(100% 0%, 92% 51%, 100% 100%, 10% 100%, 0% 50%, 9% 0);
+}
+.rodape{
+    position: absolute;
+    top: 600px;
+    left: 250px;
 }
